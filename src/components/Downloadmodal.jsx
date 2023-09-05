@@ -13,7 +13,7 @@ const Messagemodal = () => {
                 <h1>Message Sent!</h1>
                 <p className='px-1 px-lg-4'>Thank you for reaching out, a response will be sent shortly.
                     In the meantime, kindly check projects I’ve worked on.</p>
-                <Link to={'/Projects'}>  <button className='btn btn-primary my-1'>Go to Projects</button> </Link>
+                <Link to={'/Download Project'}>  <button className='btn btn-primary my-1'>Go to Downloads</button> </Link>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 .pp input, textarea{
-    width: 90%;
+    width: 100%;
     background: #535353;
 }
 .pp input::placeholder{
@@ -9,6 +9,10 @@ padding-left: 5px;
 .pp textarea::placeholder{
     color: white;
     padding-left: 5px;
+    }
+
+    form{
+        width: 100%;
     }
 
     @media (min-width:1100px) {
