@@ -1,0 +1,43 @@
+.sec{
+    background: #2D2D2D;
+}
+
+.one{
+    background: #404040;
+    box-shadow: 5px 5px  #fff;
+    height: 260px;
+}
+.one h2{
+    padding: 20px 0px;
+}
+
+.ic{
+    top: 0px;
+}
+
+@media (min-width:700px) {
+    .one{
+        width: 40%;
+    }
+    .ic{
+        font-size: 12px;
+    }
+    .tex{
+        position: static;
+    }
+    .img{
+        height: 400px;
+    }
+    .sec{
+        overflow-y: scroll;
+    }
+}
+  
+@media (min-width:1100px) {
+   .img{
+    width: 60%;
+   }
+   .one p{
+    font-size: 20px;
+   }
+}

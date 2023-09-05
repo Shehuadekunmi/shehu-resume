@@ -1,0 +1,12 @@
+@media (min-width:1100px) {
+    .tex{
+        width: 40%;
+    }
+    .ic{
+        width: 100%;
+    }
+      
+    .tett p{
+        font-size: 25px;
+    }
+}

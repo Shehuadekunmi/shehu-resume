@@ -1,0 +1,29 @@
+.pp input, textarea{
+    width: 90%;
+    background: #535353;
+}
+.pp input::placeholder{
+color: white;
+padding-left: 5px;
+}
+.pp textarea::placeholder{
+    color: white;
+    padding-left: 5px;
+    }
+
+    @media (min-width:1100px) {
+        .big, .pp{
+            width: 45%;
+        }
+        .pp input{
+            height: 40px;
+        }
+        .pp input::placeholder{
+           font-size: 20px;
+            }
+            .pp textarea::placeholder{
+                font-size: 20px;
+                }
+
+    }
+    

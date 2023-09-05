@@ -1,0 +1,54 @@
+
+
+.dar{
+    overflow: hidden;
+    background-color: rgb(240, 234, 234);
+}
+.sheu{
+position: relative;
+right: 20px;
+top: 90px;
+display: flex;
+justify-content: end;
+align-items: end;
+
+}
+
+.sent{
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+.ico{
+    font-size: 40px;
+}
+
+@media (min-width:700px) {
+    .sent{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .sheu{
+        justify-content: center;
+        left: 150px;
+    }
+}
+
+@media (min-width:1100px) {
+    .sent{
+        width: 40%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .sent p{
+        font-size: 25px;
+        padding: 15px ;
+    }
+    .sheu{
+        left: 190px;
+        font-size: 20px;
+    }
+    .ico{
+        font-size: 80px;
+    }
+}

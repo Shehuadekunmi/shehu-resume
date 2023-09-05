@@ -1,0 +1,31 @@
+
+.imgg{
+    width: 95%;
+    margin: 0 auto;
+}
+.imgg img{
+    width: 100%;
+}
+
+.ico{
+    font-size: 30px;
+}
+
+@media (min-width:1000px) {
+    .text{
+        width: 45%;
+        margin: 40px auto;
+    }
+    .text p{
+        font-size: 25px;
+    }
+    .imgg{
+        width: 45%;
+    }
+    .imgg img{
+        width: 100%;
+    }
+    .ic p{
+        font-size: 30px;
+    }
+}
